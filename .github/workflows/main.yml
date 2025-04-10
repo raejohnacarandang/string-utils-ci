@@ -33,8 +33,5 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: coverage-report
-<<<<<<< HEAD
         path: .coverage
-=======
-        path: .coverage
->>>>>>> 2728cf529b67f72ebd4cd7eb280ef4551ee337de
+        
