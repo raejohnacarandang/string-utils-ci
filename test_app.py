@@ -1,6 +1,6 @@
 
 
-import pytest  # noqa: F401
+import pytest  #noqa: F401
 from app import reverse_string, is_palindrome
 
 
