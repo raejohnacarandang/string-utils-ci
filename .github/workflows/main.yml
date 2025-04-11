@@ -25,10 +25,10 @@ jobs:
         pip install flake8 pytest pytest-cov  # Explicitly installing pytest and pytest-cov
 
     - name: Run Code Linting (Flake8)
-      run: python -m flake8 . --max-line-length=88  # Using python -m to call flake8 for compatibility
+      run: python -m flake8 . --max-line-length=88
 
     - name: Run Unit Tests and Coverage Report
-      run: python -m pytest --cov=app  # Using python -m pytest to prevent command issues
+      run: python -m pytest --cov=app
 
     - name: Upload Coverage Report
       uses: actions/upload-artifact@v4
